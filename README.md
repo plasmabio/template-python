@@ -2,6 +2,10 @@
 
 Example repository to create an environment with course materials.
 
+## Try it on Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/materials-example/master?urlpath=%2Flab/)
+
 ## Structure of the repo
 
 This repository follows the [binder-examples/conda](https://github.com/binder-examples/conda) example very closely.
