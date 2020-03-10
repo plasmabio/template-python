@@ -1,0 +1,11 @@
+name: materials-example
+channels:
+  - conda-forge
+dependencies:
+  - ipympl
+  - ipywidgets
+  - jupyterlab=2
+  - matplotlib
+  - numpy
+  - pandas
+  - psutil
