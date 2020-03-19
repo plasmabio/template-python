@@ -6,10 +6,8 @@ dependencies:
   - ipywidgets
   - jupyterlab=2
   - matplotlib
+  - nbresuse
   - numpy
   - pandas
-  - pip
+  - python=3
   - psutil
-  - pip:
-    - nbresuse
-
