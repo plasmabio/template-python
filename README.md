@@ -1,6 +1,6 @@
-# materials-example
+# Template materials in Python
 
-Example repository to create an environment with course materials.
+Example repository to create an environment with course materials in Python.
 
 ## Try it on Binder
 
