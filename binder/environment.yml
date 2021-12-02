@@ -13,9 +13,8 @@ dependencies:
   - pandas
   - matplotlib
   - ipywidgets>=7.6,<8
-  - jupyterlab>=3
+  - jupyterlab>=3,<4
+  - jupyter-resource-usage
   - jupyterlab-topbar
   - jupyterlab-system-monitor
   - nodejs
-  - nbresuse
-  - psutil
