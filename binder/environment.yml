@@ -12,7 +12,9 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
-  - jupyterlab>=3
+  - ipywidgets>=7.6,<8
+  - jupyterlab>=3.2,<4
+  - jupyter-resource-usage
+  - jupyterlab-topbar
+  - jupyterlab-system-monitor
   - nodejs
-  - nbresuse
-  - psutil

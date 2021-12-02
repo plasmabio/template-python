@@ -4,7 +4,7 @@ Example repository to create an environment with course materials in Python.
 
 ## Try it on Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/materials-example/master?urlpath=%2Flab/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/plasmabio/template-python/master?urlpath=%2Flab/)
 
 ## Structure of the repo
 
