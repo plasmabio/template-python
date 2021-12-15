@@ -16,5 +16,6 @@ dependencies:
   - jupyterlab>=3.2,<4
   - jupyter-resource-usage
   - jupyterlab-topbar
+  - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
