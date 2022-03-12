@@ -1,7 +1,7 @@
 name: plasmabio-template-python
 # channels priority
 # see https://bioconda.github.io/
-# conda-forge has highest prioriy
+# conda-forge has highest priority
 channels:
   - defaults
   - bioconda
