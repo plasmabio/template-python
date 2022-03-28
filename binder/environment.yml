@@ -13,6 +13,7 @@ dependencies:
   - pandas
   - matplotlib
   - ipywidgets>=7.6,<8
+  - jupyterhub>=1.5,<2
   - jupyterlab>=3.2,<4
   - jupyter-resource-usage
   - jupyterlab-topbar
