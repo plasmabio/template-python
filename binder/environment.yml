@@ -7,12 +7,7 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - python>=3.8
-  - pip
-  - numpy
-  - pandas
-  - matplotlib
-  - ipywidgets>=7.6,<8
+  # Jupyter dependencies
   - jupyterhub>=1.5,<2
   - jupyterlab>=3.2,<4
   - jupyter-resource-usage
@@ -20,3 +15,11 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  # Python environment
+  - python>=3.8
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - ipywidgets>=7.6,<8
+
