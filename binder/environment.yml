@@ -18,8 +18,10 @@ dependencies:
   # Python environment
   - python>=3.8
   - pip
+  - ipywidgets>=7.6,<8
   - numpy
   - pandas
+  - scipy
   - matplotlib
-  - ipywidgets>=7.6,<8
-
+  - seaborn
+  - biopython
