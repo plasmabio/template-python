@@ -25,3 +25,5 @@ dependencies:
   - matplotlib
   - seaborn
   - biopython
+  - pip:
+    - watermark
