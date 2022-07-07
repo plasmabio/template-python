@@ -25,5 +25,11 @@ dependencies:
   - matplotlib
   - seaborn
   - biopython
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  - jupyter-archive
   - pip:
+    # Print module version
     - watermark
+    # Variable inspector
+    - lckr-jupyterlab-variableinspector
