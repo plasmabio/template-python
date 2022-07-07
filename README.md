@@ -15,7 +15,7 @@ This repository is based on the [binder-examples/conda](https://github.com/binde
 `repo2docker` can be configured with several types of files. In the case of this repo:
 
 - `binder/environment.yml`: specify dependencies that will be installed using `conda`
-- `binder/postBuild`: specify extra dependencies such as JupyterLab extensions
+- `binder/apt.txt`: specify regular Ubuntu packages that will be installed using `apt`
 
 Once created, the environment can be reused without building it again.
 
@@ -27,4 +27,4 @@ Materials can be added anywhere to this repository, either at the top level or i
 
 When building the environment, the materials (and any other file) will be copied to the Docker image.
 
-In this example, there is already a test notebook available under `example-notebook.ipynb`.
+In this example, there is already a test notebook available under `example-notebook-python.ipynb`.
