@@ -31,5 +31,6 @@ dependencies:
   - pip:
     # Print module version
     - watermark
-    # Variable inspector
+    # JupyterLab Variable inspector
+    # https://github.com/lckr/jupyterlab-variableInspector
     - lckr-jupyterlab-variableinspector
