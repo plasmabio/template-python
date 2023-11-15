@@ -9,16 +9,15 @@ channels:
 dependencies:
   # Jupyter dependencies
   - jupyterhub>=1.5,<2
-  - jupyterlab>=3.2,<4
-  - jupyter-resource-usage
+  - jupyterlab>=4,<5
+  - jupyter-resource-usage>=1,<2
   - jupyterlab-topbar
   - jupyterlab-topbar-text
-  - jupyterlab-system-monitor
-  - nodejs
+  - nodejs>=20
   # Python environment
-  - python>=3.8
+  - python>=3.10
   - pip
-  - ipywidgets>=7.6,<8
+  - ipywidgets>=8,<9
   - numpy
   - pandas
   - scipy
@@ -28,9 +27,7 @@ dependencies:
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive
+  - jupyterlab-variableinspector
   - pip:
     # Print module version
     - watermark
-    # JupyterLab Variable inspector
-    # https://github.com/lckr/jupyterlab-variableInspector
-    - lckr-jupyterlab-variableinspector
