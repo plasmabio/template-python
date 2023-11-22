@@ -11,8 +11,7 @@ dependencies:
   - jupyterhub>=4,<5
   - jupyterlab>=4,<5
   - jupyter-resource-usage>=1,<2
-  - jupyterlab-topbar
-  - jupyterlab-topbar-text
+  # - jupyterlab-topbar-text
   - nodejs>=20
   # Python environment
   - python>=3.10
