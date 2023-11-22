@@ -8,7 +8,7 @@ channels:
   - conda-forge
 dependencies:
   # Jupyter dependencies
-  - jupyterhub>=1.5,<2
+  - jupyterhub>=4,<5
   - jupyterlab>=4,<5
   - jupyter-resource-usage>=1,<2
   - jupyterlab-topbar
