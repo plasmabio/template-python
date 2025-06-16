@@ -9,7 +9,8 @@ channels:
 dependencies:
   # Jupyter dependencies
   - jupyterhub>=4.1.6,<5
-  - jupyterlab>=4,<5
+  - jupyterlab>=4.4,<5
+  - notebook>=7.4,<8
   - jupyter-resource-usage>=1,<2
   # - jupyterlab-topbar-text
   - nodejs>=20
