@@ -12,7 +12,7 @@ dependencies:
   - jupyterlab>=4.4,<5
   - notebook>=7.4,<8
   - jupyter-resource-usage>=1,<2
-  # - jupyterlab-topbar-text
+  - jupyterlab-topbar-text >=1.1.0,<2
   - nodejs>=20
   # Python environment
   - python>=3.10
