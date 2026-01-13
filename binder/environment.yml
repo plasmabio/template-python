@@ -3,9 +3,8 @@ name: plasmabio-template-python
 # see https://bioconda.github.io/
 # conda-forge has highest priority
 channels:
-  - defaults
-  - bioconda
   - conda-forge
+  - bioconda
 dependencies:
   # Jupyter dependencies
   - jupyterhub>=4.1.6,<5
@@ -15,7 +14,7 @@ dependencies:
   - jupyterlab-topbar-text >=1.1.0,<2
   - nodejs>=20
   # Python environment
-  - python>=3.10
+  - python>=3.10,<3.13
   - pip
   - ipywidgets>=8,<9
   - numpy
